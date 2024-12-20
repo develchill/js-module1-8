@@ -1,0 +1,108 @@
+*{
+    /* padding не увеличивает ширину элемента */
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1408px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    padding-left: 146px;
+    padding-top: 18px;
+    padding-bottom: 16px;
+    padding-right: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 3px 7px #5B6460;
+}
+
+.nav-plus-img{
+    display: flex;
+}
+
+.header-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-link{
+   /* убираем подчеркивание  у ссылки  */
+   text-decoration: none;
+
+   font-family: DIN;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.header-item:not(:last-child){
+    margin-right: 36px;
+}
+
+.header-item:last-child{
+    margin-right: 26px;
+}
+
+.header-btn{
+    padding: 16px 60px;
+    /* width: 200px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px; */
+    background: #5B6460;
+    color: #FFFFFF;
+    font-family: DIN;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+
+.intro-container{
+    width: 1408px;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url(/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 95px;
+    padding-right: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;    
+}
+.intro-titel{
+    font-family: Open Sans;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 72px;   
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF; 
+   
+    margin: 0;
+    margin-bottom: 34px;    
+}
+.intro-descr{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;    
+    color: #FFFFFF;
+}
+
+.cabins-container{
+    width: 1408px;
+    margin: 0 auto;
+}
